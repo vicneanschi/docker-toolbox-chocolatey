@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>docker-toolbox</id>
     <title>Docker Toolbox (Install)</title>
-    <version>1.11.1b</version>
+    <version>1.11.1</version>
     <authors>http://www.docker.com</authors>
     <owners>Valeri Vicneanschi</owners>
     <summary>The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer.</summary>
@@ -26,7 +26,7 @@
       <dependency id="" version="__VERSION__" />
       <dependency id="" />
     </dependencies>-->
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <releaseNotes>This is a first release</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
