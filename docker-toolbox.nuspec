@@ -12,7 +12,7 @@
     <description>The Docker Toolbox installs everything you need to get started with Docker on Mac OS X and Windows. It includes the Docker client, Compose, Machine, Kitematic, and VirtualBox. 
     </description>
     <projectUrl>https://www.docker.com/products/docker-toolbox</projectUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/vicneanschi/docker-toolbox-chocolatey</packageSourceUrl>
     <projectSourceUrl>https://github.com/docker/toolbox</projectSourceUrl>
     <!--<docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>
