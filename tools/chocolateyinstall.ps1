@@ -1,6 +1,4 @@
-﻿
-$ErrorActionPreference = 'Stop';
-
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName= 'docker-toolbox'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -11,11 +9,9 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  url64bit      = $url64
 
-  validExitCodes= @(0)
+  validExitCodes= @(0, 3010, 1641)
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-
   softwareName  = 'docker-toolbox*'
   checksum      = ''
   checksumType  = 'md5'
